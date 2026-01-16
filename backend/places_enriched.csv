@@ -1,0 +1,127 @@
+Destination Name,State,Region,Category,Popular Attraction,Famous Places,Accessibility,Nearest Airport,Nearest Railway Station
+Agra,Uttar Pradesh,North,Heritage,Taj Mahal,"Taj Mahal, Agra Fort, Fatehpur Sikri, Mehtab Bagh",Easy,Agra Airport,Agra Cantt
+Jaipur,Rajasthan,West,Heritage,Amber Fort,"Amber Fort, City Palace, Hawa Mahal, Jantar Mantar, Nahargarh Fort",Easy,Jaipur Airport,Jaipur Junction
+Udaipur,Rajasthan,West,Heritage,City Palace,"City Palace, Lake Pichola, Jag Mandir, Fateh Sagar Lake",Easy,Udaipur Airport,Udaipur City
+Jaisalmer,Rajasthan,West,Desert,Jaisalmer Fort,"Jaisalmer Fort, Sam Sand Dunes, Patwon Ki Haveli, Gadisar Lake",Moderate,Jaisalmer Airport,Jaisalmer
+Mount Abu,Rajasthan,West,Hill Station,Dilwara Temples,"Dilwara Temples, Nakki Lake, Guru Shikhar",Moderate,Udaipur Airport,Abu Road
+Varanasi,Uttar Pradesh,North,Religious,Kashi Vishwanath,"Kashi Vishwanath Temple, Dashashwamedh Ghat, Assi Ghat, Sarnath",Moderate,Varanasi Airport,Varanasi Junction
+Ayodhya,Uttar Pradesh,North,Religious,Ram Mandir,"Ram Mandir, Hanuman Garhi, Sarayu Ghat",Easy,Ayodhya Airport,Ayodhya Junction
+Mathura,Vrindavan,North,Religious,Krishna Janmabhoomi,"Krishna Janmabhoomi, Banke Bihari Temple, Prem Mandir",Easy,Agra Airport,Mathura Junction
+Amritsar,Punjab,North,Religious,Golden Temple,"Golden Temple, Jallianwala Bagh, Wagah Border",Easy,Amritsar Airport,Amritsar Junction
+Chandigarh,Chandigarh,North,City,Rock Garden,"Rock Garden, Sukhna Lake, Rose Garden",Easy,Chandigarh Airport,Chandigarh
+Haridwar,Uttarakhand,North,Religious,Ganga Aarti,"Har Ki Pauri, Mansa Devi, Chandi Devi",Easy,Dehradun Airport,Haridwar
+Rishikesh,Uttarakhand,North,Adventure,River Rafting,"Lakshman Jhula, Ram Jhula, Beatles Ashram",Moderate,Dehradun Airport,Rishikesh
+Shimla,Himachal Pradesh,North,Hill Station,Mall Road,"Mall Road, Kufri, Jakhoo Temple",Easy,Shimla Airport,Shimla
+Manali,Himachal Pradesh,North,Hill Station,Solang Valley,"Solang Valley, Rohtang Pass, Hidimba Temple",Difficult,Bhuntar Airport,Joginder Nagar
+Dharamshala,Himachal Pradesh,North,Hill Station,McLeod Ganj,"McLeod Ganj, Dalai Lama Temple, Bhagsu Falls",Moderate,Kangra Airport,Pathankot
+Leh,Ladakh,North,Adventure,Pangong Lake,"Pangong Lake, Nubra Valley, Magnetic Hill",Difficult,Leh Airport,Leh
+Srinagar,Jammu & Kashmir,North,Nature,Dal Lake,"Dal Lake, Mughal Gardens, Shankaracharya Temple",Moderate,Srinagar Airport,Srinagar
+Mumbai,Maharashtra,West,City,Gateway of India,"Gateway of India, Marine Drive, Elephanta Caves, Juhu Beach",Easy,Mumbai Airport,CSMT
+Pune,Maharashtra,West,City,Shaniwar Wada,"Shaniwar Wada, Aga Khan Palace, Sinhagad Fort",Easy,Pune Airport,Pune Junction
+Nashik,Maharashtra,West,Religious,Trimbakeshwar,"Trimbakeshwar Temple, Sula Vineyards, Godavari Ghats",Easy,Nashik Airport,Nashik Road
+Shirdi,Maharashtra,West,Religious,Sai Baba Temple,"Sai Baba Temple, Dwarkamai, Chavadi",Easy,Shirdi Airport,Kopargaon
+Aurangabad,Maharashtra,West,Heritage,Ellora Caves,"Ajanta Caves, Ellora Caves, Daulatabad Fort",Moderate,Aurangabad Airport,Aurangabad
+Indore,Madhya Pradesh,Central,City,Rajwada,"Rajwada Palace, Sarafa Bazaar, Lal Bagh Palace",Easy,Indore Airport,Indore Junction
+Bhopal,Madhya Pradesh,Central,Heritage,Sanchi Stupa,"Sanchi Stupa, Upper Lake, Van Vihar",Easy,Bhopal Airport,Bhopal Junction
+Pachmarhi,Madhya Pradesh,Central,Hill Station,Bee Falls,"Bee Falls, Dhupgarh, Jata Shankar Cave",Moderate,Bhopal Airport,Pipariya
+Goa,Goa,West,Beach,Baga Beach,"Baga Beach, Calangute Beach, Anjuna Beach, Fort Aguada",Easy,Goa Airport,Madgaon
+Gokarna,Karnataka,South,Beach,Om Beach,"Om Beach, Kudle Beach, Mahabaleshwar Temple",Moderate,Goa Airport,Gokarna Road
+Hampi,Karnataka,South,Heritage,Stone Chariot,"Virupaksha Temple, Vittala Temple, Hampi Bazaar",Moderate,Bellary Airport,Hospet
+Mysuru,Karnataka,South,Heritage,Mysore Palace,"Mysore Palace, Chamundi Hills, Brindavan Gardens",Easy,Mysore Airport,Mysore
+Bengaluru,Karnataka,South,City,Lalbagh,"Lalbagh, Cubbon Park, Bangalore Palace",Easy,Bengaluru Airport,Bangalore City
+Chennai,Tamil Nadu,South,City,Marina Beach,"Marina Beach, Kapaleeshwarar Temple, Fort St George",Easy,Chennai Airport,Chennai Central
+Madurai,Tamil Nadu,South,Heritage,Meenakshi Temple,"Meenakshi Temple, Thirumalai Nayakkar Palace",Easy,Madurai Airport,Madurai
+Rameshwaram,Tamil Nadu,South,Religious,Ramanathaswamy Temple,"Ramanathaswamy Temple, Dhanushkodi",Moderate,Madurai Airport,Rameshwaram
+Kanyakumari,Tamil Nadu,South,Religious,Vivekananda Rock,"Vivekananda Rock, Thiruvalluvar Statue",Easy,Trivandrum Airport,Kanyakumari
+Munnar,Kerala,South,Hill Station,Tea Gardens,"Tea Gardens, Eravikulam Park, Echo Point",Moderate,Cochin Airport,Ernakulam
+Alleppey,Kerala,South,Nature,Backwaters,"Backwaters, Houseboats, Alappuzha Beach",Easy,Cochin Airport,Alleppey
+Kochi,Kerala,South,Heritage,Fort Kochi,"Fort Kochi, Chinese Nets, Mattancherry Palace",Easy,Cochin Airport,Ernakulam
+Thiruvananthapuram,Kerala,South,City,Padmanabhaswamy Temple,"Padmanabhaswamy Temple, Kovalam Beach",Easy,Trivandrum Airport,Trivandrum
+Puri,Odisha,East,Religious,Jagannath Temple,"Jagannath Temple, Puri Beach, Konark Sun Temple",Easy,Bhubaneswar Airport,Puri
+Konark,Odisha,East,Heritage,Sun Temple,"Sun Temple, Chandrabhaga Beach",Easy,Bhubaneswar Airport,Puri
+Bhubaneswar,Odisha,East,City,Lingaraj Temple,"Lingaraj Temple, Udayagiri Caves",Easy,Bhubaneswar Airport,Bhubaneswar
+Darjeeling,West Bengal,East,Hill Station,Tiger Hill,"Tiger Hill, Batasia Loop, Tea Gardens",Moderate,Bagdogra Airport,New Jalpaiguri
+Kolkata,West Bengal,East,City,Victoria Memorial,"Victoria Memorial, Howrah Bridge, Dakshineswar",Easy,Kolkata Airport,Howrah
+Gangtok,Sikkim,East,Hill Station,MG Road,"Tsomgo Lake, Nathula Pass, Rumtek Monastery",Moderate,Bagdogra Airport,New Jalpaiguri
+Shillong,Meghalaya,East,Hill Station,Umiam Lake,"Umiam Lake, Elephant Falls, Shillong Peak",Moderate,Shillong Airport,Guwahati
+Cherrapunji,Meghalaya,East,Nature,Nohkalikai Falls,"Nohkalikai Falls, Living Root Bridges, Mawsmai Cave",Difficult,Shillong Airport,Guwahati
+Kaziranga,Assam,East,Wildlife,National Park,"Jeep Safari, Elephant Safari, Bird Watching",Moderate,Jorhat Airport,Furkating
+Guwahati,Assam,East,City,Kamakhya Temple,"Kamakhya Temple, Brahmaputra Cruise",Easy,Guwahati Airport,Guwahati
+Dehradun,Uttarakhand,North,City,Robber’s Cave,"Robber’s Cave, Sahastradhara, Forest Research Institute",Easy,Dehradun Airport,Dehradun
+Mussoorie,Uttarakhand,North,Hill Station,Kempty Falls,"Kempty Falls, Mall Road, Gun Hill",Easy,Dehradun Airport,Dehradun
+Nainital,Uttarakhand,North,Hill Station,Naini Lake,"Naini Lake, Naina Devi Temple, Snow View Point",Easy,Pantnagar Airport,Kathgodam
+Almora,Uttarakhand,North,Hill Station,Bright End Corner,"Bright End Corner, Kasar Devi Temple",Moderate,Pantnagar Airport,Kathgodam
+Kausani,Uttarakhand,North,Hill Station,Sunrise View,"Anasakti Ashram, Tea Gardens",Moderate,Pantnagar Airport,Kathgodam
+Badrinath,Uttarakhand,North,Religious,Badrinath Temple,"Badrinath Temple, Tapt Kund, Mana Village",Difficult,Dehradun Airport,Rishikesh
+Kedarnath,Uttarakhand,North,Religious,Kedarnath Temple,"Kedarnath Temple, Chorabari Lake",Difficult,Dehradun Airport,Rishikesh
+Auli,Uttarakhand,North,Adventure,Ski Slopes,"Skiing Slopes, Auli Lake, Joshimath",Difficult,Dehradun Airport,Rishikesh
+Dalhousie,Himachal Pradesh,North,Hill Station,Khajjiar,"Khajjiar, Panchpula, Mall Road",Moderate,Pathankot Airport,Pathankot
+Kullu,Himachal Pradesh,North,Nature,Beas River,"Beas River, Great Himalayan Park",Moderate,Bhuntar Airport,Joginder Nagar
+Spiti Valley,Himachal Pradesh,North,Adventure,Key Monastery,"Key Monastery, Chandratal Lake, Kaza",Difficult,Bhuntar Airport,Shimla
+Bilaspur,Himachal Pradesh,North,City,Gobind Sagar Lake,"Gobind Sagar Lake, Naina Devi Temple",Moderate,Chandigarh Airport,Bilaspur
+Patnitop,Jammu & Kashmir,North,Hill Station,Meadow Views,"Nathatop, Sanasar",Moderate,Jammu Airport,Udhampur
+Vaishno Devi,Jammu & Kashmir,North,Religious,Mata Vaishno Devi,"Vaishno Devi Temple, Ardhkuwari",Difficult,Jammu Airport,Katra
+Gulmarg,Jammu & Kashmir,North,Hill Station,Ski Resort,"Gondola Ride, Alpather Lake",Moderate,Srinagar Airport,Baramulla
+Pahalgam,Jammu & Kashmir,North,Nature,Betaab Valley,"Betaab Valley, Aru Valley, Lidder River",Moderate,Srinagar Airport,Anantnag
+Rajgir,Bihar,East,Religious,Vishwa Shanti Stupa,"Vishwa Shanti Stupa, Venu Vana",Easy,Gaya Airport,Rajgir
+Bodh Gaya,Bihar,East,Religious,Mahabodhi Temple,"Mahabodhi Temple, Bodhi Tree",Easy,Gaya Airport,Gaya
+Nalanda,Bihar,East,Heritage,Nalanda University,"Nalanda Ruins, Archaeological Museum",Easy,Gaya Airport,Rajgir
+Patna,Bihar,East,City,Golghar,"Golghar, Takht Sri Patna Sahib",Easy,Patna Airport,Patna Junction
+Ranchi,Jharkhand,East,Nature,Hundru Falls,"Hundru Falls, Rock Garden",Easy,Ranchi Airport,Ranchi
+Netarhat,Jharkhand,East,Hill Station,Sunset Point,"Sunset Point, Magnolia Point",Moderate,Ranchi Airport,Ranchi
+Digha,West Bengal,East,Beach,Digha Beach,"Digha Beach, Marine Aquarium",Easy,Kolkata Airport,Digha
+Siliguri,West Bengal,East,City,Tea Gardens,"Tea Gardens, ISKCON Temple",Easy,Bagdogra Airport,New Jalpaiguri
+Kalimpong,West Bengal,East,Hill Station,Durpin Dara,"Durpin Dara, Zang Dhok Palri Monastery",Moderate,Bagdogra Airport,New Jalpaiguri
+Mirik,West Bengal,East,Hill Station,Sumendu Lake,"Sumendu Lake, Tea Estates",Moderate,Bagdogra Airport,New Jalpaiguri
+Aizawl,Mizoram,East,City,Durtlang Hills,"Durtlang Hills, Solomon’s Temple",Moderate,Aizawl Airport,Silchar
+Lunglei,Mizoram,East,Hill Station,Saikuti Hall,"Saikuti Hall, Lunglei Bridge",Moderate,Aizawl Airport,Silchar
+Kohima,Nagaland,East,Heritage,War Cemetery,"War Cemetery, Kisama Village",Moderate,Dimapur Airport,Dimapur
+Dimapur,Nagaland,East,City,Kachari Ruins,"Kachari Ruins, Triple Falls",Easy,Dimapur Airport,Dimapur
+Imphal,Manipur,East,City,Loktak Lake,"Loktak Lake, Kangla Fort",Easy,Imphal Airport,Imphal
+Moreh,Manipur,East,Border Town,Indo-Myanmar Border,"Border Market, Local Hills",Moderate,Imphal Airport,Imphal
+Agartala,Tripura,East,Heritage,Ujjayanta Palace,"Ujjayanta Palace, Neermahal",Easy,Agartala Airport,Agartala
+Unakoti,Tripura,East,Heritage,Rock Carvings,"Unakoti Rock Carvings, Waterfalls",Moderate,Agartala Airport,Kumarghat
+Itanagar,Arunachal Pradesh,East,City,Tawang Monastery,"Itanagar Fort, Ganga Lake",Moderate,Itanagar Airport,Harmuti
+Tawang,Arunachal Pradesh,East,Religious,Tawang Monastery,"Tawang Monastery, Sela Pass",Difficult,Tezpur Airport,Tezpur
+Ziro,Arunachal Pradesh,East,Hill Station,Ziro Valley,"Ziro Valley, Pine Forests",Difficult,Itanagar Airport,Harmuti
+Pasighat,Arunachal Pradesh,East,Nature,Siang River,"Siang River, Hanging Bridges",Moderate,Dibrugarh Airport,Dibrugarh
+Kutch,Gujarat,West,Desert,White Rann,"White Rann, Kala Dungar, Dholavira",Moderate,Bhuj Airport,Bhuj
+Ahmedabad,Gujarat,West,City,Sabarmati Ashram,"Sabarmati Ashram, Sidi Saiyyed Mosque, Adalaj Stepwell",Easy,Ahmedabad Airport,Ahmedabad Junction
+Vadodara,Gujarat,West,Heritage,Laxmi Vilas Palace,"Laxmi Vilas Palace, Sayaji Garden",Easy,Vadodara Airport,Vadodara
+Dwarka,Gujarat,West,Religious,Dwarkadhish Temple,"Dwarkadhish Temple, Bet Dwarka",Easy,Porbandar Airport,Dwarka
+Somnath,Gujarat,West,Religious,Somnath Temple,"Somnath Temple, Triveni Sangam",Easy,Diu Airport,Veraval
+Porbandar,Gujarat,West,Heritage,Kirti Mandir,"Kirti Mandir, Chowpati Beach",Easy,Porbandar Airport,Porbandar
+Mahabaleshwar,Maharashtra,West,Hill Station,Arthur’s Seat,"Arthur’s Seat, Venna Lake, Mapro Garden",Easy,Pune Airport,Satara
+Lonavala,Maharashtra,West,Hill Station,Bhushi Dam,"Bhushi Dam, Lion’s Point, Karla Caves",Easy,Pune Airport,Lonavala
+Kolhapur,Maharashtra,West,Religious,Mahalaxmi Temple,"Mahalaxmi Temple, Rankala Lake",Easy,Kolhapur Airport,Kolhapur
+Ratnagiri,Maharashtra,West,Beach,Ganpatipule,"Ganpatipule Beach, Jaigad Fort",Moderate,Ratnagiri Airport,Ratnagiri
+Sindhudurg,Maharashtra,West,Beach,Tarkarli,"Tarkarli Beach, Sindhudurg Fort",Moderate,Goa Airport,Kudal
+Bijapur,Karnataka,South,Heritage,Gol Gumbaz,"Gol Gumbaz, Ibrahim Rauza",Moderate,Hubli Airport,Vijayapura
+Badami,Karnataka,South,Heritage,Cave Temples,"Badami Caves, Agastya Lake",Moderate,Hubli Airport,Badami
+Chikmagalur,Karnataka,South,Hill Station,Coffee Estates,"Coffee Estates, Mullayanagiri",Moderate,Mangalore Airport,Kaduru
+Udupi,Karnataka,South,Religious,Krishna Temple,"Udupi Krishna Temple, Malpe Beach",Easy,Mangalore Airport,Udupi
+Coorg,Karnataka,South,Hill Station,Abbey Falls,"Abbey Falls, Raja’s Seat, Coffee Plantations",Moderate,Mangalore Airport,Mysore
+Belur,Karnataka,South,Heritage,Chennakesava Temple,"Chennakesava Temple, Halebidu",Moderate,Mangalore Airport,Hassan
+Kanchipuram,Tamil Nadu,South,Religious,Kamakshi Temple,"Kamakshi Amman Temple, Ekambareswarar Temple",Easy,Chennai Airport,Kanchipuram
+Thanjavur,Tamil Nadu,South,Heritage,Brihadeeswarar Temple,"Brihadeeswarar Temple, Saraswathi Mahal",Easy,Trichy Airport,Thanjavur
+Ooty,Tamil Nadu,South,Hill Station,Botanical Garden,"Botanical Garden, Ooty Lake, Doddabetta",Easy,Coimbatore Airport,Udhagamandalam
+Kodaikanal,Tamil Nadu,South,Hill Station,Kodaikanal Lake,"Kodaikanal Lake, Pillar Rocks, Coaker’s Walk",Easy,Madurai Airport,Kodaikanal Road
+Yercaud,Tamil Nadu,South,Hill Station,Yercaud Lake,"Yercaud Lake, Pagoda Point",Easy,Salem Airport,Salem
+Vellore,Tamil Nadu,South,Religious,Golden Temple,"Sripuram Golden Temple, Vellore Fort",Easy,Chennai Airport,Vellore
+Sabarimala,Kerala,South,Religious,Ayyappa Temple,"Ayyappa Temple, Pamba River",Difficult,Cochin Airport,Chengannur
+Wayanad,Kerala,South,Nature,Edakkal Caves,"Edakkal Caves, Banasura Dam, Wildlife Sanctuary",Moderate,Calicut Airport,Kozhikode
+Varkala,Kerala,South,Beach,Varkala Cliff,"Varkala Cliff, Papanasam Beach",Easy,Trivandrum Airport,Varkala
+Kovalam,Kerala,South,Beach,Kovalam Beach,"Lighthouse Beach, Hawah Beach",Easy,Trivandrum Airport,Trivandrum
+Hogenakkal,Tamil Nadu,South,Nature,Waterfalls,"Hogenakkal Falls, Coracle Ride",Moderate,Bangalore Airport,Dharmapuri
+Araku Valley,Andhra Pradesh,South,Hill Station,Araku Hills,"Araku Hills, Borra Caves, Coffee Museum",Moderate,Visakhapatnam Airport,Araku
+Visakhapatnam,Andhra Pradesh,South,City,RK Beach,"RK Beach, Submarine Museum, Kailasagiri",Easy,Visakhapatnam Airport,Visakhapatnam
+Srisailam,Andhra Pradesh,South,Religious,Mallikarjuna Temple,"Mallikarjuna Temple, Srisailam Dam",Moderate,Hyderabad Airport,Markapur
+Warangal,Telangana,South,Heritage,Warangal Fort,"Warangal Fort, Thousand Pillar Temple",Easy,Hyderabad Airport,Warangal
+Hyderabad,Telangana,South,City,Charminar,"Charminar, Golconda Fort, Hussain Sagar",Easy,Hyderabad Airport,Hyderabad
+Bhadrachalam,Telangana,South,Religious,Ram Temple,"Bhadrachalam Temple, Godavari Ghat",Moderate,Hyderabad Airport,Khammam
+Bastar,Chhattisgarh,Central,Nature,Chitrakote Falls,"Chitrakote Falls, Tirathgarh Falls",Difficult,Raipur Airport,Jagdalpur
+Raipur,Chhattisgarh,Central,City,Magneto Mall,"Purkhouti Muktangan, Nandan Van Zoo",Easy,Raipur Airport,Raipur
+Jagdalpur,Chhattisgarh,Central,Nature,Kanger Valley,"Kanger Valley Park, Kutumsar Caves",Difficult,Raipur Airport,Jagdalpur
+Hazaribagh,Jharkhand,East,Wildlife,National Park,"Hazaribagh Park, Canary Hill",Moderate,Ranchi Airport,Hazaribagh
+Gir Forest,Gujarat,West,Wildlife,Asiatic Lions,"Jeep Safari, Devalia Park",Moderate,Diu Airport,Junagadh
+Diu,Daman & Diu,West,Beach,Diu Fort,"Diu Fort, St Paul’s Church, Beaches",Easy,Diu Airport,Veraval

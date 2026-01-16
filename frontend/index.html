@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Yatri.in || Your Travel Buddy</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;800&family=Playfair+Display:wght@700&display=swap"
+    rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<!-- Trip Planner Modal -->
+<div id="tripModal" class="modal hidden">
+  <div class="modal-content">
+    <h3 id="modalTitle">Plan Your Trip</h3>
+
+    <label>How many days?</label>
+    <input type="number" id="tripDays" min="1" value="3">
+
+    <label>Number of members</label>
+    <input type="number" id="tripMembers" min="1" value="2">
+
+    <label>Enter ages (comma separated)</label>
+    <input type="text" id="tripAges" placeholder="e.g. 25,30,60">
+
+    <button onclick="submitTripPlan()" class="submit-btn">
+      Generate Itinerary
+    </button>
+
+    <button onclick="closeTripModal()" class="close-btn">
+      Cancel
+    </button>
+  </div>
+</div>
+
+<body>
+
+
+  <div id="page-loader">
+    <div class="loader-plane">
+      <i class="fa-solid fa-plane"></i>
+    </div>
+
+    <div class="crash-effects">
+      <span class="drop"></span>
+      <span class="drop"></span>
+      <span class="drop"></span>
+    </div>
+
+    <div class="smoke"></div>
+
+    <div class="loader-logo">Yatri.in</div>
+  </div>
+
+
+  <!-- Language Switcher -->
+  <div class="lang-overlay">
+    <select id="langSelector">
+      <option value="eng">English</option>
+      <option value="hi">हिन्दी</option>
+      <option value="mr">मराठी</option>
+      <option value="gu">ગુજરાતી</option>
+      <option value="pa">ਪੰਜਾਬੀ</option>
+    </select>
+  </div>
+
+  <!-- HERO -->
+  <header class="hero">
+    <div class="hero-content">
+      <div class="brand">
+        <i class="fa-solid fa-plane plane-icon"></i>
+        <span class="brand-name">Yatri.in</span>
+      </div>
+    </div>
+
+
+    <h1 class="main-title">
+      <span id="titleIncredible">Incredible</span>
+      <span class="accent" id="titleBharat">Bharat.</span>
+    </h1>
+
+    <p class="subtitle" id="tagline">
+      Authentic Indian Journeys. Brewed with Code.
+    </p>
+    </div>
+
+    <div class="hero-bg-shapes">
+      <div class="shape s1"></div>
+      <div class="shape s2"></div>
+    </div>
+  </header>
+
+  <!-- MAIN -->
+  <main class="container">
+    <div class="planner-wrapper">
+
+      <form id="travelForm" class="planner-form">
+        <h2 id="plannerTitle">Travel Configurator</h2>
+
+        <div class="input-grid">
+
+          <div class="input-group">
+            <label>
+              <i class="fa-solid fa-wallet"></i>
+              <span id="labelBudget">Budget Range</span>
+            </label>
+            <select id="budget" required>
+              <option value="budget">Budget-Friendly (₹5000-₹10000)</option>
+              <option value="mid">Mid-Ranged (₹15,000-₹50,000)</option>
+              <option value="luxury">Luxury (>₹50,000)</option>
+            </select>
+          </div>
+
+          <div class="input-group">
+            <label>
+              <i class="fa-solid fa-heart"></i>
+              <span id="labelInterest">Interest</span>
+            </label>
+            <select id="interest" required>
+              <option value="culture">Culture & Heritage</option>
+              <option value="nature">Nature & Wild</option>
+              <option value="adventure">Adrenaline Spike</option>
+              <option value="spiritual">Spiritual Re-code</option>
+            </select>
+          </div>
+
+          <div class="input-group">
+            <label>
+              <i class="fa-solid fa-user-group"></i>
+              <span id="labelType">Travel Type</span>
+            </label>
+            <select id="travel_type" required>
+              <option value="solo">Solo Sabbatical</option>
+              <option value="couple">Duo Loop</option>
+              <option value="family">Root Directory (Family)</option>
+              <option value="friends">Squad Sync</option>
+            </select>
+          </div>
+
+          <div class="input-group">
+            <label>
+              <i class="fa-solid fa-calendar-days"></i>
+              <span id="labelSeason">Season</span>
+            </label>
+            <select id="season" required>
+              <option value="summer">Summer (Mar–Jun)</option>
+              <option value="winter">Winter (Nov–Feb)</option>
+              <option value="monsoon">Monsoon (Jul–Oct)</option>
+            </select>
+          </div>
+
+        </div>
+
+        <button type="submit" class="submit-btn" id="submitBtn">
+          <span id="submitText">RUN_DISCOVERY_SCRIPT()</span>
+          <i class="fa-solid fa-terminal"></i>
+        </button>
+      </form>
+
+      <!-- RESULT -->
+      <div id="result" class="result-display">
+        <div class="welcome-card">
+          <i class="fa-solid fa-map-location-dot"></i>
+          <h3 id="welcomeTitle">Ready for Adventure?</h3>
+          <p id="welcomeMsg">
+            Fill in the parameters above to generate your customized Indian itinerary.
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p id="footerText">
+      Atithi Devo Bhava | <span class="footer-accent">Made with ❤️ for Bharat</span>
+    </p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

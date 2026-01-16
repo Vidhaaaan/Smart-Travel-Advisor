@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YATRI | The Infinite Journey</title>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,wght@0,400;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;700&family=Rajdhani:wght@500;700&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Three.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+
+    <style>
+        :root {
+            --saffron: #FF9933;
+            --gold: #FFD700;
+            --deep-orange: #FF4500;
+        }
+
+        body {
+            margin: 0;
+            overflow: hidden;
+            background-color: #050200;
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            color: white;
+        }
+
+        #canvas-container {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 1;
+        }
+
+        #ui-layer {
+            position: relative;
+            z-index: 10;
+            height: 100vh;
+            width: 100vw;
+            pointer-events: none;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background: radial-gradient(circle at center, transparent 0%, #000000 120%);
+            transition: opacity 1.5s ease;
+        }
+
+        .cursor-dot,
+        .cursor-outline {
+            position: fixed;
+            top: 0;
+            left: 0;
+            transform: translate(-50%, -50%);
+            border-radius: 50%;
+            z-index: 9999;
+            pointer-events: none;
+        }
+
+        .cursor-dot {
+            width: 8px;
+            height: 8px;
+            background-color: var(--saffron);
+        }
+
+        .cursor-outline {
+            width: 40px;
+            height: 40px;
+            border: 1px solid var(--saffron);
+            transition: width 0.2s, height 0.2s, background-color 0.2s;
+        }
+
+        .hero-title {
+            font-family: 'Bodoni Moda', serif;
+            line-height: 0.9;
+            text-align: center;
+            mix-blend-mode: overlay;
+            text-shadow: 0 0 30px rgba(255, 153, 51, 0.5);
+            opacity: 0;
+            transform: translateY(50px);
+            transition: transform 1.5s cubic-bezier(0.19, 1, 0.22, 1), opacity 1s ease;
+        }
+
+        .hero-subtitle {
+            font-family: 'Rajdhani', sans-serif;
+            letter-spacing: 0.5em;
+            text-transform: uppercase;
+            color: var(--gold);
+            margin-top: 1rem;
+            margin-bottom: 3rem;
+            opacity: 0;
+            transform: translateY(20px);
+            transition: all 1s ease-out;
+        }
+
+        .cyber-btn {
+            pointer-events: auto;
+            position: relative;
+            padding: 20px 60px;
+            font-family: 'Rajdhani', sans-serif;
+            font-size: 1.5rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 4px;
+            color: var(--saffron);
+            background: rgba(0, 0, 0, 0.6);
+            border: 1px solid var(--saffron);
+            cursor: pointer;
+            overflow: hidden;
+            transition: all 0.3s cubic-bezier(0.23, 1, 0.32, 1);
+            backdrop-filter: blur(5px);
+            opacity: 0;
+            transform: translateY(20px);
+            clip-path: polygon(10% 0, 100% 0, 100% 70%, 90% 100%, 0 100%, 0 30%);
+        }
+
+        .cyber-btn::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255, 153, 51, 0.4), transparent);
+            transition: left 0.5s;
+        }
+
+        .cyber-btn:hover {
+            background: var(--saffron);
+            color: #000;
+            box-shadow: 0 0 50px rgba(255, 153, 51, 0.6);
+        }
+
+        .cyber-btn:hover::before {
+            left: 100%;
+        }
+
+        .mandala-ring {
+            position: absolute;
+            width: 600px;
+            height: 600px;
+            border: 1px dashed rgba(255, 153, 51, 0.1);
+            border-radius: 50%;
+            animation: spin 60s linear infinite;
+            pointer-events: none;
+            z-index: -1;
+        }
+        
+        .mandala-ring:nth-child(1) { width: 500px; height: 500px; animation-direction: reverse; border-style: dotted; }
+        .mandala-ring:nth-child(2) { width: 700px; height: 700px; animation-duration: 100s; opacity: 0.1; }
+
+        @keyframes spin {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+
+        #loader {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: #000;
+            z-index: 99999;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: var(--saffron);
+            font-family: 'Bodoni Moda', serif;
+            font-size: 2rem;
+            transition: opacity 1s ease-out;
+        }
+
+        /* Screen Flash effect on redirection */
+        #flash {
+            position: fixed;
+            top: 0; left: 0; width: 100%; height: 100%;
+            background: white;
+            z-index: 10000;
+            opacity: 0;
+            pointer-events: none;
+            transition: opacity 0.5s ease;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="loader">YATRI<span class="animate-pulse">.</span></div>
+    <div id="flash"></div>
+
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+
+    <div id="canvas-container"></div>
+
+    <div id="ui-layer">
+        <div class="mandala-ring"></div>
+        <div class="mandala-ring"></div>
+        <div class="mandala-ring"></div>
+
+        <h1 class="hero-title text-6xl md:text-9xl font-bold">
+            <span class="text-white">TIMELESS</span>
+            <span style="color: var(--saffron);">BHARAT</span>
+        </h1>
+
+        <p class="hero-subtitle text-sm md:text-xl">Discover the Spirit Within</p>
+
+        <button class="cyber-btn" id="warpBtn">
+            Enter Portal
+        </button>
+
+        <div class="absolute bottom-10 left-10 text-xs text-gray-500 font-mono hidden md:block opacity-50">
+            COORDS: <span id="coords">28.6139° N, 77.2090° E</span><br>
+            STATUS: SYSTEM ONLINE<br>
+            MODE: IMMERSIVE
+        </div>
+
+        <div class="absolute top-10 right-10 flex gap-4 pointer-events-auto">
+            <div class="w-2 h-2 bg-green-500 rounded-full animate-ping"></div>
+            <span class="text-xs font-mono text-gray-400">LIVE CONNECTION</span>
+        </div>
+    </div>
+
+    <script>
+        // --- 1. PRELOADER & ANIMATIONS ---
+        window.addEventListener('load', () => {
+            const loader = document.getElementById('loader');
+            const title = document.querySelector('.hero-title');
+            const subtitle = document.querySelector('.hero-subtitle');
+            const btn = document.querySelector('.cyber-btn');
+
+            setTimeout(() => {
+                loader.style.opacity = '0';
+                setTimeout(() => loader.remove(), 1000);
+
+                setTimeout(() => {
+                    title.style.opacity = '1';
+                    title.style.transform = 'translateY(0)';
+                }, 500);
+
+                setTimeout(() => {
+                    subtitle.style.opacity = '1';
+                    subtitle.style.transform = 'translateY(0)';
+                }, 1000);
+
+                setTimeout(() => {
+                    btn.style.opacity = '1';
+                    btn.style.transform = 'translateY(0)';
+                }, 1400);
+
+            }, 800);
+        });
+
+        // --- 2. CUSTOM CURSOR ---
+        const cursorDot = document.querySelector('.cursor-dot');
+        const cursorOutline = document.querySelector('.cursor-outline');
+
+        window.addEventListener('mousemove', (e) => {
+            const posX = e.clientX;
+            const posY = e.clientY;
+            cursorDot.style.left = `${posX}px`;
+            cursorDot.style.top = `${posY}px`;
+            cursorOutline.animate({
+                left: `${posX}px`,
+                top: `${posY}px`
+            }, { duration: 500, fill: "forwards" });
+        });
+
+        document.querySelectorAll('button, a').forEach(el => {
+            el.addEventListener('mouseenter', () => {
+                cursorOutline.style.width = '60px';
+                cursorOutline.style.height = '60px';
+                cursorOutline.style.borderColor = 'white';
+                cursorOutline.style.backgroundColor = 'rgba(255, 153, 51, 0.2)';
+            });
+            el.addEventListener('mouseleave', () => {
+                cursorOutline.style.width = '40px';
+                cursorOutline.style.height = '40px';
+                cursorOutline.style.borderColor = '#FF9933';
+                cursorOutline.style.backgroundColor = 'transparent';
+            });
+        });
+
+        // --- 3. THREE.JS 3D SCENE ---
+        const scene = new THREE.Scene();
+        scene.fog = new THREE.FogExp2(0x050200, 0.002);
+        const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
+        camera.position.z = 100;
+
+        const renderer = new THREE.WebGLRenderer({ alpha: true, antialias: true });
+        renderer.setSize(window.innerWidth, window.innerHeight);
+        renderer.setPixelRatio(window.devicePixelRatio);
+        document.getElementById('canvas-container').appendChild(renderer.domElement);
+
+        function createSprite() {
+            const canvas = document.createElement('canvas');
+            canvas.width = 32; canvas.height = 32;
+            const context = canvas.getContext('2d');
+            const gradient = context.createRadialGradient(16, 16, 0, 16, 16, 16);
+            gradient.addColorStop(0, 'rgba(255, 255, 255, 1)');
+            gradient.addColorStop(0.2, 'rgba(255, 153, 51, 1)');
+            gradient.addColorStop(0.5, 'rgba(255, 153, 51, 0.2)');
+            gradient.addColorStop(1, 'rgba(0, 0, 0, 0)');
+            context.fillStyle = gradient;
+            context.fillRect(0, 0, 32, 32);
+            const texture = new THREE.Texture(canvas);
+            texture.needsUpdate = true;
+            return texture;
+        }
+
+        const geometry = new THREE.BufferGeometry();
+        const count = 4000;
+        const positions = new Float32Array(count * 3);
+        const colors = new Float32Array(count * 3);
+        const sizes = new Float32Array(count);
+        const colorPalette = [new THREE.Color('#FF9933'), new THREE.Color('#FFD700'), new THREE.Color('#FFFFFF'), new THREE.Color('#FF4500')];
+
+        for (let i = 0; i < count; i++) {
+            const r = 40 + Math.random() * 120;
+            const theta = Math.random() * Math.PI * 2;
+            positions[i * 3] = r * Math.cos(theta);
+            positions[i * 3 + 1] = r * Math.sin(theta);
+            positions[i * 3 + 2] = (Math.random() - 0.5) * 800;
+            const color = colorPalette[Math.floor(Math.random() * colorPalette.length)];
+            colors[i * 3] = color.r; colors[i * 3 + 1] = color.g; colors[i * 3 + 2] = color.b;
+            sizes[i] = Math.random() * 2;
+        }
+
+        geometry.setAttribute('position', new THREE.BufferAttribute(positions, 3));
+        geometry.setAttribute('color', new THREE.BufferAttribute(colors, 3));
+        geometry.setAttribute('size', new THREE.BufferAttribute(sizes, 1));
+
+        const material = new THREE.PointsMaterial({
+            size: 0.6, map: createSprite(), vertexColors: true, blending: THREE.AdditiveBlending,
+            depthWrite: false, transparent: true, opacity: 0.8
+        });
+
+        const particles = new THREE.Points(geometry, material);
+        scene.add(particles);
+
+        let mouseX = 0, mouseY = 0, targetSpeed = 0.2, currentSpeed = 0.2, isWarping = false;
+
+        window.addEventListener('resize', () => {
+            camera.aspect = window.innerWidth / window.innerHeight;
+            camera.updateProjectionMatrix();
+            renderer.setSize(window.innerWidth, window.innerHeight);
+        });
+
+        document.addEventListener('mousemove', (e) => {
+            mouseX = (e.clientX - window.innerWidth / 2) * 0.05;
+            mouseY = (e.clientY - window.innerHeight / 2) * 0.05;
+        });
+
+        // --- REAL REDIRECTION LOGIC ---
+        document.getElementById('warpBtn').addEventListener('click', () => {
+            isWarping = true;
+            const btn = document.getElementById('warpBtn');
+            btn.innerText = "LAUNCHING...";
+            btn.style.pointerEvents = "none";
+            
+            // Fade out UI
+            document.getElementById('ui-layer').style.opacity = '0';
+            
+            // Warp & Redirect
+            setTimeout(() => {
+                document.getElementById('flash').style.opacity = '1';
+                setTimeout(() => {
+                    // YAHAN AAPKA REAL NEXT PAGE HAI
+                    window.location.href = 'index.html'; 
+                }, 500);
+            }, 2000);
+        });
+
+        function animate() {
+            requestAnimationFrame(animate);
+            if (isWarping) {
+                targetSpeed = 8.0; 
+                camera.fov = Math.min(camera.fov + 0.8, 140);
+                camera.updateProjectionMatrix();
+            } else {
+                targetSpeed = 0.2;
+            }
+
+            currentSpeed += (targetSpeed - currentSpeed) * 0.05;
+            const posAttr = particles.geometry.attributes.position;
+            const arr = posAttr.array;
+            
+            for (let i = 0; i < count; i++) {
+                arr[i * 3 + 2] += currentSpeed;
+                if (arr[i * 3 + 2] > 200) {
+                    arr[i * 3 + 2] = -600;
+                }
+            }
+            posAttr.needsUpdate = true;
+            particles.rotation.z += 0.001;
+
+            camera.position.x += (mouseX - camera.position.x) * 0.05;
+            camera.position.y += (-mouseY - camera.position.y) * 0.05;
+            camera.lookAt(scene.position);
+
+            renderer.render(scene, camera);
+        }
+
+        animate();
+
+        setInterval(() => {
+            const lat = (28 + Math.random()).toFixed(4);
+            const long = (77 + Math.random()).toFixed(4);
+            const coordsEl = document.getElementById('coords');
+            if(coordsEl) coordsEl.innerText = `${lat}° N, ${long}° E`;
+        }, 500);
+
+    </script>
+</body>
+</html>

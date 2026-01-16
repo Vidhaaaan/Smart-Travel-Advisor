@@ -1,0 +1,2422 @@
+[
+  {
+    "name": "Taj Mahal",
+    "state": "Uttar Pradesh",
+    "region": "North",
+    "interests": [
+      "heritage"
+    ],
+    "budget": "medium",
+    "season": [
+      "winter",
+      "summer"
+    ],
+    "travel_type": [
+      "family",
+      "friends",
+      "solo"
+    ],
+    "accessibility": "Easy",
+    "popular_attraction": "Taj Mahal",
+    "nearest_airport": "Agra Civil Enclave",
+    "nearest_railway": "Agra Cantt"
+  },
+  {
+    "name": "Jaipur",
+    "state": "Rajasthan",
+    "region": "West",
+    "interests": [
+      "heritage"
+    ],
+    "budget": "medium",
+    "season": [
+      "winter",
+      "summer"
+    ],
+    "travel_type": [
+      "family",
+      "friends",
+      "solo"
+    ],
+    "accessibility": "Easy",
+    "popular_attraction": "Amber Fort",
+    "nearest_airport": "Jaipur International",
+    "nearest_railway": "Jaipur Junction"
+  },
+  {
+    "name": "Goa",
+    "state": "Goa",
+    "region": "West",
+    "interests": [
+      "beach"
+    ],
+    "budget": "medium",
+    "season": [
+      "winter",
+      "summer"
+    ],
+    "travel_type": [
+      "family",
+      "friends",
+      "solo"
+    ],
+    "accessibility": "Easy",
+    "popular_attraction": "Calangute Beach",
+    "nearest_airport": "Dabolim Airport",
+    "nearest_railway": "Madgaon Railway Station"
+  },
+  {
+    "name": "Kerala Backwaters",
+    "state": "Kerala",
+    "region": "South",
+    "interests": [
+      "nature"
+    ],
+    "budget": "medium",
+    "season": [
+      "winter",
+      "summer"
+    ],
+    "travel_type": [
+      "family",
+      "friends",
+      "solo"
+    ],
+    "accessibility": "Moderate",
+    "popular_attraction": "Vembanad Lake",
+    "nearest_airport": "Cochin International",
+    "nearest_railway": "Alleppey"
+  },
+  {
+    "name": "Varanasi",
+    "state": "Uttar Pradesh",
+    "region": "North",
+    "interests": [
+      "religious"
+    ],
+    "budget": "medium",
+    "season": [
+      "winter",
+      "summer"
+    ],
+    "travel_type": [
+      "family",
+      "friends",
+      "solo"
+    ],
+    "accessibility": "Moderate",
+    "popular_attraction": "Ghats of Varanasi",
+    "nearest_airport": "Lal Bahadur Shastri",
+    "nearest_railway": "Varanasi Junction"
+  },
+  {
+    "name": "Manali",
+    "state": "Himachal Pradesh",
+    "region": "North",
+    "interests": [
+      "adventure"
+    ],
+    "budget": "medium",
+    "season": [
+      "winter",
+      "summer"
+    ],
+    "travel_type": [
+      "family",
+      "friends",
+      "solo"
+    ],
+    "accessibility": "Difficult",
+    "popular_attraction": "Solang Valley",
+    "nearest_airport": "Bhuntar Airport",
+    "nearest_railway": "Joginder Nagar"
+  },
+  {
+    "name": "Sundarbans",
+    "state": "West Bengal",
+    "region": "East",
+    "interests": [
+      "nature"
+    ],
+    "budget": "medium",
+    "season": [
+      "winter",
+      "summer"
+    ],
+    "travel_type": [
+      "family",
+      "friends",
+      "solo"
+    ],
+    "accessibility": "Difficult",
+    "popular_attraction": "Sundarbans National Park",
+    "nearest_airport": "Netaji Subhas Chandra Bose",
+    "nearest_railway": "Canning"
+  },
+  {
+    "name": "Amritsar",
+    "state": "Punjab",
+    "region": "North",
+    "interests": [
+      "religious"
+    ],
+    "budget": "medium",
+    "season": [
+      "winter",
+      "summer"
+    ],
+    "travel_type": [
+      "family",
+      "friends",
+      "solo"
+    ],
+    "accessibility": "Easy",
+    "popular_attraction": "Golden Temple",
+    "nearest_airport": "Sri Guru Ram Dass Jee",
+    "nearest_railway": "Amritsar Junction"
+  },
+  {
+    "name": "Mahabalipuram",
+    "state": "Tamil Nadu",
+    "region": "South",
+    "interests": [
+      "heritage"
+    ],
+    "budget": "medium",
+    "season": [
+      "winter",
+      "summer"
+    ],
+    "travel_type": [
+      "family",
+      "friends",
+      "solo"
+    ],
+    "accessibility": "Easy",
+    "popular_attraction": "Shore Temple",
+    "nearest_airport": "Chennai International",
+    "nearest_railway": "Chengalpattu"
+  },
+  {
+    "name": "Andaman Islands",
+    "state": "Andaman and Nicobar",
+    "region": "East",
+    "interests": [
+      "beach"
+    ],
+    "budget": "medium",
+    "season": [
+      "winter",
+      "summer"
+    ],
+    "travel_type": [
+      "family",
+      "friends",
+      "solo"
+    ],
+    "accessibility": "Moderate",
+    "popular_attraction": "Radhanagar Beach",
+    "nearest_airport": "Veer Savarkar International",
+    "nearest_railway": "Port Blair"
+  },
+  {
+    "name": "Kaziranga National Park",
+    "state": "Assam",
+    "region": "East",
+    "interests": [
+      "nature"
+    ],
+    "budget": "medium",
+    "season": [
+      "winter",
+      "summer"
+    ],
+    "travel_type": [
+      "family",
+      "friends",
+      "solo"
+    ],
+    "accessibility": "Moderate",
+    "popular_attraction": "Kaziranga National Park",
+    "nearest_airport": "Jorhat Airport",
+    "nearest_railway": "Furkating"
+  },
+  {
+    "name": "Mysore",
+    "state": "Karnataka",
+    "region": "South",
+    "interests": [
+      "heritage"
+    ],
+    "budget": "medium",
+    "season": [
+      "winter",
+      "summer"
+    ],
+    "travel_type": [
+      "family",
+      "friends",
+      "solo"
+    ],
+    "accessibility": "Easy",
+    "popular_attraction": "Mysore Palace",
+    "nearest_airport": "Mysore Airport",
+    "nearest_railway": "Mysore"
+  },
+  {
+    "name": "Jaisalmer",
+    "state": "Rajasthan",
+    "region": "West",
+    "interests": [
+      "heritage"
+    ],
+    "budget": "medium",
+    "season": [
+      "winter",
+      "summer"
+    ],
+    "travel_type": [
+      "family",
+      "friends",
+      "solo"
+    ],
+    "accessibility": "Moderate",
+    "popular_attraction": "Jaisalmer Fort",
+    "nearest_airport": "Jaisalmer Airport",
+    "nearest_railway": "Jaisalmer"
+  },
+  {
+    "name": "Rishikesh",
+    "state": "Uttarakhand",
+    "region": "North",
+    "interests": [
+      "adventure"
+    ],
+    "budget": "medium",
+    "season": [
+      "winter",
+      "summer"
+    ],
+    "travel_type": [
+      "family",
+      "friends",
+      "solo"
+    ],
+    "accessibility": "Difficult",
+    "popular_attraction": "Lakshman Jhula",
+    "nearest_airport": "Dehradun Airport",
+    "nearest_railway": "Rishikesh"
+  },
+  {
+    "name": "Shimla",
+    "state": "Himachal Pradesh",
+    "region": "North",
+    "interests": [
+      "nature"
+    ],
+    "budget": "medium",
+    "season": [
+      "winter",
+      "summer"
+    ],
+    "travel_type": [
+      "family",
+      "friends",
+      "solo"
+    ],
+    "accessibility": "Easy",
+    "popular_attraction": "Mall Road",
+    "nearest_airport": "Shimla Airport",
+    "nearest_railway": "Shimla"
+  },
+  {
+    "name": "Udaipur",
+    "state": "Rajasthan",
+    "region": "West",
+    "interests": [
+      "heritage"
+    ],
+    "budget": "medium",
+    "season": [
+      "winter",
+      "summer"
+    ],
+    "travel_type": [
+      "family",
+      "friends",
+      "solo"
+    ],
+    "accessibility": "Easy",
+    "popular_attraction": "City Palace",
+    "nearest_airport": "Udaipur Airport",
+    "nearest_railway": "Udaipur City"
+  },
+  {
+    "name": "Darjeeling",
+    "state": "West Bengal",
+    "region": "East",
+    "interests": [
+      "nature"
+    ],
+    "budget": "medium",
+    "season": [
+      "winter",
+      "summer"
+    ],
+    "travel_type": [
+      "family",
+      "friends",
+      "solo"
+    ],
+    "accessibility": "Moderate",
+    "popular_attraction": "Tiger Hill",
+    "nearest_airport": "Bagdogra Airport",
+    "nearest_railway": "Darjeeling"
+  },
+  {
+    "name": "Munnar",
+    "state": "Kerala",
+    "region": "South",
+    "interests": [
+      "nature"
+    ],
+    "budget": "medium",
+    "season": [
+      "winter",
+      "summer"
+    ],
+    "travel_type": [
+      "family",
+      "friends",
+      "solo"
+    ],
+    "accessibility": "Moderate",
+    "popular_attraction": "Tea Gardens",
+    "nearest_airport": "Cochin International",
+    "nearest_railway": "Ernakulam"
+  },
+  {
+    "name": "Ajanta and Ellora Caves",
+    "state": "Maharashtra",
+    "region": "West",
+    "interests": [
+      "heritage"
+    ],
+    "budget": "medium",
+    "season": [
+      "winter",
+      "summer"
+    ],
+    "travel_type": [
+      "family",
+      "friends",
+      "solo"
+    ],
+    "accessibility": "Moderate",
+    "popular_attraction": "Ajanta Caves",
+    "nearest_airport": "Aurangabad Airport",
+    "nearest_railway": "Aurangabad"
+  },
+  {
+    "name": "Cherrapunji",
+    "state": "Meghalaya",
+    "region": "East",
+    "interests": [
+      "nature"
+    ],
+    "budget": "medium",
+    "season": [
+      "winter",
+      "summer"
+    ],
+    "travel_type": [
+      "family",
+      "friends",
+      "solo"
+    ],
+    "accessibility": "Difficult",
+    "popular_attraction": "Nohkalikai Falls",
+    "nearest_airport": "Shillong Airport",
+    "nearest_railway": "Guwahati"
+  },
+  {
+    "name": "Kaziranga National Park",
+    "state": "Assam",
+    "region": "East",
+    "interests": [
+      "nature"
+    ],
+    "budget": "medium",
+    "season": [
+      "winter",
+      "summer"
+    ],
+    "travel_type": [
+      "family",
+      "friends",
+      "solo"
+    ],
+    "accessibility": "Moderate",
+    "popular_attraction": "Kaziranga National Park",
+    "nearest_airport": "Jorhat Airport",
+    "nearest_railway": "Furkating"
+  },
+  {
+    "name": "Mysore",
+    "state": "Karnataka",
+    "region": "South",
+    "interests": [
+      "heritage"
+    ],
+    "budget": "medium",
+    "season": [
+      "winter",
+      "summer"
+    ],
+    "travel_type": [
+      "family",
+      "friends",
+      "solo"
+    ],
+    "accessibility": "Easy",
+    "popular_attraction": "Mysore Palace",
+    "nearest_airport": "Mysore Airport",
+    "nearest_railway": "Mysore"
+  },
+  {
+    "name": "Jaisalmer",
+    "state": "Rajasthan",
+    "region": "West",
+    "interests": [
+      "heritage"
+    ],
+    "budget": "medium",
+    "season": [
+      "winter",
+      "summer"
+    ],
+    "travel_type": [
+      "family",
+      "friends",
+      "solo"
+    ],
+    "accessibility": "Moderate",
+    "popular_attraction": "Jaisalmer Fort",
+    "nearest_airport": "Jaisalmer Airport",
+    "nearest_railway": "Jaisalmer"
+  },
+  {
+    "name": "Rishikesh",
+    "state": "Uttarakhand",
+    "region": "North",
+    "interests": [
+      "adventure"
+    ],
+    "budget": "medium",
+    "season": [
+      "winter",
+      "summer"
+    ],
+    "travel_type": [
+      "family",
+      "friends",
+      "solo"
+    ],
+    "accessibility": "Difficult",
+    "popular_attraction": "Lakshman Jhula",
+    "nearest_airport": "Dehradun Airport",
+    "nearest_railway": "Rishikesh"
+  },
+  {
+    "name": "Shimla",
+    "state": "Himachal Pradesh",
+    "region": "North",
+    "interests": [
+      "nature"
+    ],
+    "budget": "medium",
+    "season": [
+      "winter",
+      "summer"
+    ],
+    "travel_type": [
+      "family",
+      "friends",
+      "solo"
+    ],
+    "accessibility": "Easy",
+    "popular_attraction": "Mall Road",
+    "nearest_airport": "Shimla Airport",
+    "nearest_railway": "Shimla"
+  },
+  {
+    "name": "Udaipur",
+    "state": "Rajasthan",
+    "region": "West",
+    "interests": [
+      "heritage"
+    ],
+    "budget": "medium",
+    "season": [
+      "winter",
+      "summer"
+    ],
+    "travel_type": [
+      "family",
+      "friends",
+      "solo"
+    ],
+    "accessibility": "Easy",
+    "popular_attraction": "City Palace",
+    "nearest_airport": "Udaipur Airport",
+    "nearest_railway": "Udaipur City"
+  },
+  {
+    "name": "Darjeeling",
+    "state": "West Bengal",
+    "region": "East",
+    "interests": [
+      "nature"
+    ],
+    "budget": "medium",
+    "season": [
+      "winter",
+      "summer"
+    ],
+    "travel_type": [
+      "family",
+      "friends",
+      "solo"
+    ],
+    "accessibility": "Moderate",
+    "popular_attraction": "Tiger Hill",
+    "nearest_airport": "Bagdogra Airport",
+    "nearest_railway": "Darjeeling"
+  },
+  {
+    "name": "Munnar",
+    "state": "Kerala",
+    "region": "South",
+    "interests": [
+      "nature"
+    ],
+    "budget": "medium",
+    "season": [
+      "winter",
+      "summer"
+    ],
+    "travel_type": [
+      "family",
+      "friends",
+      "solo"
+    ],
+    "accessibility": "Moderate",
+    "popular_attraction": "Tea Gardens",
+    "nearest_airport": "Cochin International",
+    "nearest_railway": "Ernakulam"
+  },
+  {
+    "name": "Ajanta and Ellora Caves",
+    "state": "Maharashtra",
+    "region": "West",
+    "interests": [
+      "heritage"
+    ],
+    "budget": "medium",
+    "season": [
+      "winter",
+      "summer"
+    ],
+    "travel_type": [
+      "family",
+      "friends",
+      "solo"
+    ],
+    "accessibility": "Moderate",
+    "popular_attraction": "Ajanta Caves",
+    "nearest_airport": "Aurangabad Airport",
+    "nearest_railway": "Aurangabad"
+  },
+  {
+    "name": "Cherrapunji",
+    "state": "Meghalaya",
+    "region": "East",
+    "interests": [
+      "nature"
+    ],
+    "budget": "medium",
+    "season": [
+      "winter",
+      "summer"
+    ],
+    "travel_type": [
+      "family",
+      "friends",
+      "solo"
+    ],
+    "accessibility": "Difficult",
+    "popular_attraction": "Nohkalikai Falls",
+    "nearest_airport": "Shillong Airport",
+    "nearest_railway": "Guwahati"
+  },
+  {
+    "name": "Kaziranga National Park",
+    "state": "Assam",
+    "region": "East",
+    "interests": [
+      "nature"
+    ],
+    "budget": "medium",
+    "season": [
+      "winter",
+      "summer"
+    ],
+    "travel_type": [
+      "family",
+      "friends",
+      "solo"
+    ],
+    "accessibility": "Moderate",
+    "popular_attraction": "Kaziranga National Park",
+    "nearest_airport": "Jorhat Airport",
+    "nearest_railway": "Furkating"
+  },
+  {
+    "name": "Mysore",
+    "state": "Karnataka",
+    "region": "South",
+    "interests": [
+      "heritage"
+    ],
+    "budget": "medium",
+    "season": [
+      "winter",
+      "summer"
+    ],
+    "travel_type": [
+      "family",
+      "friends",
+      "solo"
+    ],
+    "accessibility": "Easy",
+    "popular_attraction": "Mysore Palace",
+    "nearest_airport": "Mysore Airport",
+    "nearest_railway": "Mysore"
+  },
+  {
+    "name": "Jaisalmer",
+    "state": "Rajasthan",
+    "region": "West",
+    "interests": [
+      "heritage"
+    ],
+    "budget": "medium",
+    "season": [
+      "winter",
+      "summer"
+    ],
+    "travel_type": [
+      "family",
+      "friends",
+      "solo"
+    ],
+    "accessibility": "Moderate",
+    "popular_attraction": "Jaisalmer Fort",
+    "nearest_airport": "Jaisalmer Airport",
+    "nearest_railway": "Jaisalmer"
+  },
+  {
+    "name": "Rishikesh",
+    "state": "Uttarakhand",
+    "region": "North",
+    "interests": [
+      "adventure"
+    ],
+    "budget": "medium",
+    "season": [
+      "winter",
+      "summer"
+    ],
+    "travel_type": [
+      "family",
+      "friends",
+      "solo"
+    ],
+    "accessibility": "Difficult",
+    "popular_attraction": "Lakshman Jhula",
+    "nearest_airport": "Dehradun Airport",
+    "nearest_railway": "Rishikesh"
+  },
+  {
+    "name": "Shimla",
+    "state": "Himachal Pradesh",
+    "region": "North",
+    "interests": [
+      "nature"
+    ],
+    "budget": "medium",
+    "season": [
+      "winter",
+      "summer"
+    ],
+    "travel_type": [
+      "family",
+      "friends",
+      "solo"
+    ],
+    "accessibility": "Easy",
+    "popular_attraction": "Mall Road",
+    "nearest_airport": "Shimla Airport",
+    "nearest_railway": "Shimla"
+  },
+  {
+    "name": "Udaipur",
+    "state": "Rajasthan",
+    "region": "West",
+    "interests": [
+      "heritage"
+    ],
+    "budget": "medium",
+    "season": [
+      "winter",
+      "summer"
+    ],
+    "travel_type": [
+      "family",
+      "friends",
+      "solo"
+    ],
+    "accessibility": "Easy",
+    "popular_attraction": "City Palace",
+    "nearest_airport": "Udaipur Airport",
+    "nearest_railway": "Udaipur City"
+  },
+  {
+    "name": "Darjeeling",
+    "state": "West Bengal",
+    "region": "East",
+    "interests": [
+      "nature"
+    ],
+    "budget": "medium",
+    "season": [
+      "winter",
+      "summer"
+    ],
+    "travel_type": [
+      "family",
+      "friends",
+      "solo"
+    ],
+    "accessibility": "Moderate",
+    "popular_attraction": "Tiger Hill",
+    "nearest_airport": "Bagdogra Airport",
+    "nearest_railway": "Darjeeling"
+  },
+  {
+    "name": "Munnar",
+    "state": "Kerala",
+    "region": "South",
+    "interests": [
+      "nature"
+    ],
+    "budget": "medium",
+    "season": [
+      "winter",
+      "summer"
+    ],
+    "travel_type": [
+      "family",
+      "friends",
+      "solo"
+    ],
+    "accessibility": "Moderate",
+    "popular_attraction": "Tea Gardens",
+    "nearest_airport": "Cochin International",
+    "nearest_railway": "Ernakulam"
+  },
+  {
+    "name": "Ajanta and Ellora Caves",
+    "state": "Maharashtra",
+    "region": "West",
+    "interests": [
+      "heritage"
+    ],
+    "budget": "medium",
+    "season": [
+      "winter",
+      "summer"
+    ],
+    "travel_type": [
+      "family",
+      "friends",
+      "solo"
+    ],
+    "accessibility": "Moderate",
+    "popular_attraction": "Ajanta Caves",
+    "nearest_airport": "Aurangabad Airport",
+    "nearest_railway": "Aurangabad"
+  },
+  {
+    "name": "Cherrapunji",
+    "state": "Meghalaya",
+    "region": "East",
+    "interests": [
+      "nature"
+    ],
+    "budget": "medium",
+    "season": [
+      "winter",
+      "summer"
+    ],
+    "travel_type": [
+      "family",
+      "friends",
+      "solo"
+    ],
+    "accessibility": "Difficult",
+    "popular_attraction": "Nohkalikai Falls",
+    "nearest_airport": "Shillong Airport",
+    "nearest_railway": "Guwahati"
+  },
+  {
+    "name": "Kaziranga National Park",
+    "state": "Assam",
+    "region": "East",
+    "interests": [
+      "nature"
+    ],
+    "budget": "medium",
+    "season": [
+      "winter",
+      "summer"
+    ],
+    "travel_type": [
+      "family",
+      "friends",
+      "solo"
+    ],
+    "accessibility": "Moderate",
+    "popular_attraction": "Kaziranga National Park",
+    "nearest_airport": "Jorhat Airport",
+    "nearest_railway": "Furkating"
+  },
+  {
+    "name": "Mysore",
+    "state": "Karnataka",
+    "region": "South",
+    "interests": [
+      "heritage"
+    ],
+    "budget": "medium",
+    "season": [
+      "winter",
+      "summer"
+    ],
+    "travel_type": [
+      "family",
+      "friends",
+      "solo"
+    ],
+    "accessibility": "Easy",
+    "popular_attraction": "Mysore Palace",
+    "nearest_airport": "Mysore Airport",
+    "nearest_railway": "Mysore"
+  },
+  {
+    "name": "Jaisalmer",
+    "state": "Rajasthan",
+    "region": "West",
+    "interests": [
+      "heritage"
+    ],
+    "budget": "medium",
+    "season": [
+      "winter",
+      "summer"
+    ],
+    "travel_type": [
+      "family",
+      "friends",
+      "solo"
+    ],
+    "accessibility": "Moderate",
+    "popular_attraction": "Jaisalmer Fort",
+    "nearest_airport": "Jaisalmer Airport",
+    "nearest_railway": "Jaisalmer"
+  },
+  {
+    "name": "Rishikesh",
+    "state": "Uttarakhand",
+    "region": "North",
+    "interests": [
+      "adventure"
+    ],
+    "budget": "medium",
+    "season": [
+      "winter",
+      "summer"
+    ],
+    "travel_type": [
+      "family",
+      "friends",
+      "solo"
+    ],
+    "accessibility": "Difficult",
+    "popular_attraction": "Lakshman Jhula",
+    "nearest_airport": "Dehradun Airport",
+    "nearest_railway": "Rishikesh"
+  },
+  {
+    "name": "Shimla",
+    "state": "Himachal Pradesh",
+    "region": "North",
+    "interests": [
+      "nature"
+    ],
+    "budget": "medium",
+    "season": [
+      "winter",
+      "summer"
+    ],
+    "travel_type": [
+      "family",
+      "friends",
+      "solo"
+    ],
+    "accessibility": "Easy",
+    "popular_attraction": "Mall Road",
+    "nearest_airport": "Shimla Airport",
+    "nearest_railway": "Shimla"
+  },
+  {
+    "name": "Udaipur",
+    "state": "Rajasthan",
+    "region": "West",
+    "interests": [
+      "heritage"
+    ],
+    "budget": "medium",
+    "season": [
+      "winter",
+      "summer"
+    ],
+    "travel_type": [
+      "family",
+      "friends",
+      "solo"
+    ],
+    "accessibility": "Easy",
+    "popular_attraction": "City Palace",
+    "nearest_airport": "Udaipur Airport",
+    "nearest_railway": "Udaipur City"
+  },
+  {
+    "name": "Darjeeling",
+    "state": "West Bengal",
+    "region": "East",
+    "interests": [
+      "nature"
+    ],
+    "budget": "medium",
+    "season": [
+      "winter",
+      "summer"
+    ],
+    "travel_type": [
+      "family",
+      "friends",
+      "solo"
+    ],
+    "accessibility": "Moderate",
+    "popular_attraction": "Tiger Hill",
+    "nearest_airport": "Bagdogra Airport",
+    "nearest_railway": "Darjeeling"
+  },
+  {
+    "name": "Munnar",
+    "state": "Kerala",
+    "region": "South",
+    "interests": [
+      "nature"
+    ],
+    "budget": "medium",
+    "season": [
+      "winter",
+      "summer"
+    ],
+    "travel_type": [
+      "family",
+      "friends",
+      "solo"
+    ],
+    "accessibility": "Moderate",
+    "popular_attraction": "Tea Gardens",
+    "nearest_airport": "Cochin International",
+    "nearest_railway": "Ernakulam"
+  },
+  {
+    "name": "Ajanta and Ellora Caves",
+    "state": "Maharashtra",
+    "region": "West",
+    "interests": [
+      "heritage"
+    ],
+    "budget": "medium",
+    "season": [
+      "winter",
+      "summer"
+    ],
+    "travel_type": [
+      "family",
+      "friends",
+      "solo"
+    ],
+    "accessibility": "Moderate",
+    "popular_attraction": "Ajanta Caves",
+    "nearest_airport": "Aurangabad Airport",
+    "nearest_railway": "Aurangabad"
+  },
+  {
+    "name": "Cherrapunji",
+    "state": "Meghalaya",
+    "region": "East",
+    "interests": [
+      "nature"
+    ],
+    "budget": "medium",
+    "season": [
+      "winter",
+      "summer"
+    ],
+    "travel_type": [
+      "family",
+      "friends",
+      "solo"
+    ],
+    "accessibility": "Difficult",
+    "popular_attraction": "Nohkalikai Falls",
+    "nearest_airport": "Shillong Airport",
+    "nearest_railway": "Guwahati"
+  },
+  {
+    "name": "Kaziranga National Park",
+    "state": "Assam",
+    "region": "East",
+    "interests": [
+      "nature"
+    ],
+    "budget": "medium",
+    "season": [
+      "winter",
+      "summer"
+    ],
+    "travel_type": [
+      "family",
+      "friends",
+      "solo"
+    ],
+    "accessibility": "Moderate",
+    "popular_attraction": "Kaziranga National Park",
+    "nearest_airport": "Jorhat Airport",
+    "nearest_railway": "Furkating"
+  },
+  {
+    "name": "Mysore",
+    "state": "Karnataka",
+    "region": "South",
+    "interests": [
+      "heritage"
+    ],
+    "budget": "medium",
+    "season": [
+      "winter",
+      "summer"
+    ],
+    "travel_type": [
+      "family",
+      "friends",
+      "solo"
+    ],
+    "accessibility": "Easy",
+    "popular_attraction": "Mysore Palace",
+    "nearest_airport": "Mysore Airport",
+    "nearest_railway": "Mysore"
+  },
+  {
+    "name": "Jaisalmer",
+    "state": "Rajasthan",
+    "region": "West",
+    "interests": [
+      "heritage"
+    ],
+    "budget": "medium",
+    "season": [
+      "winter",
+      "summer"
+    ],
+    "travel_type": [
+      "family",
+      "friends",
+      "solo"
+    ],
+    "accessibility": "Moderate",
+    "popular_attraction": "Jaisalmer Fort",
+    "nearest_airport": "Jaisalmer Airport",
+    "nearest_railway": "Jaisalmer"
+  },
+  {
+    "name": "Rishikesh",
+    "state": "Uttarakhand",
+    "region": "North",
+    "interests": [
+      "adventure"
+    ],
+    "budget": "medium",
+    "season": [
+      "winter",
+      "summer"
+    ],
+    "travel_type": [
+      "family",
+      "friends",
+      "solo"
+    ],
+    "accessibility": "Difficult",
+    "popular_attraction": "Lakshman Jhula",
+    "nearest_airport": "Dehradun Airport",
+    "nearest_railway": "Rishikesh"
+  },
+  {
+    "name": "Shimla",
+    "state": "Himachal Pradesh",
+    "region": "North",
+    "interests": [
+      "nature"
+    ],
+    "budget": "medium",
+    "season": [
+      "winter",
+      "summer"
+    ],
+    "travel_type": [
+      "family",
+      "friends",
+      "solo"
+    ],
+    "accessibility": "Easy",
+    "popular_attraction": "Mall Road",
+    "nearest_airport": "Shimla Airport",
+    "nearest_railway": "Shimla"
+  },
+  {
+    "name": "Udaipur",
+    "state": "Rajasthan",
+    "region": "West",
+    "interests": [
+      "heritage"
+    ],
+    "budget": "medium",
+    "season": [
+      "winter",
+      "summer"
+    ],
+    "travel_type": [
+      "family",
+      "friends",
+      "solo"
+    ],
+    "accessibility": "Easy",
+    "popular_attraction": "City Palace",
+    "nearest_airport": "Udaipur Airport",
+    "nearest_railway": "Udaipur City"
+  },
+  {
+    "name": "Darjeeling",
+    "state": "West Bengal",
+    "region": "East",
+    "interests": [
+      "nature"
+    ],
+    "budget": "medium",
+    "season": [
+      "winter",
+      "summer"
+    ],
+    "travel_type": [
+      "family",
+      "friends",
+      "solo"
+    ],
+    "accessibility": "Moderate",
+    "popular_attraction": "Tiger Hill",
+    "nearest_airport": "Bagdogra Airport",
+    "nearest_railway": "Darjeeling"
+  },
+  {
+    "name": "Munnar",
+    "state": "Kerala",
+    "region": "South",
+    "interests": [
+      "nature"
+    ],
+    "budget": "medium",
+    "season": [
+      "winter",
+      "summer"
+    ],
+    "travel_type": [
+      "family",
+      "friends",
+      "solo"
+    ],
+    "accessibility": "Moderate",
+    "popular_attraction": "Tea Gardens",
+    "nearest_airport": "Cochin International",
+    "nearest_railway": "Ernakulam"
+  },
+  {
+    "name": "Ajanta and Ellora Caves",
+    "state": "Maharashtra",
+    "region": "West",
+    "interests": [
+      "heritage"
+    ],
+    "budget": "medium",
+    "season": [
+      "winter",
+      "summer"
+    ],
+    "travel_type": [
+      "family",
+      "friends",
+      "solo"
+    ],
+    "accessibility": "Moderate",
+    "popular_attraction": "Ajanta Caves",
+    "nearest_airport": "Aurangabad Airport",
+    "nearest_railway": "Aurangabad"
+  },
+  {
+    "name": "Cherrapunji",
+    "state": "Meghalaya",
+    "region": "East",
+    "interests": [
+      "nature"
+    ],
+    "budget": "medium",
+    "season": [
+      "winter",
+      "summer"
+    ],
+    "travel_type": [
+      "family",
+      "friends",
+      "solo"
+    ],
+    "accessibility": "Difficult",
+    "popular_attraction": "Nohkalikai Falls",
+    "nearest_airport": "Shillong Airport",
+    "nearest_railway": "Guwahati"
+  },
+  {
+    "name": "Kaziranga National Park",
+    "state": "Assam",
+    "region": "East",
+    "interests": [
+      "nature"
+    ],
+    "budget": "medium",
+    "season": [
+      "winter",
+      "summer"
+    ],
+    "travel_type": [
+      "family",
+      "friends",
+      "solo"
+    ],
+    "accessibility": "Moderate",
+    "popular_attraction": "Kaziranga National Park",
+    "nearest_airport": "Jorhat Airport",
+    "nearest_railway": "Furkating"
+  },
+  {
+    "name": "Mysore",
+    "state": "Karnataka",
+    "region": "South",
+    "interests": [
+      "heritage"
+    ],
+    "budget": "medium",
+    "season": [
+      "winter",
+      "summer"
+    ],
+    "travel_type": [
+      "family",
+      "friends",
+      "solo"
+    ],
+    "accessibility": "Easy",
+    "popular_attraction": "Mysore Palace",
+    "nearest_airport": "Mysore Airport",
+    "nearest_railway": "Mysore"
+  },
+  {
+    "name": "Jaisalmer",
+    "state": "Rajasthan",
+    "region": "West",
+    "interests": [
+      "heritage"
+    ],
+    "budget": "medium",
+    "season": [
+      "winter",
+      "summer"
+    ],
+    "travel_type": [
+      "family",
+      "friends",
+      "solo"
+    ],
+    "accessibility": "Moderate",
+    "popular_attraction": "Jaisalmer Fort",
+    "nearest_airport": "Jaisalmer Airport",
+    "nearest_railway": "Jaisalmer"
+  },
+  {
+    "name": "Rishikesh",
+    "state": "Uttarakhand",
+    "region": "North",
+    "interests": [
+      "adventure"
+    ],
+    "budget": "medium",
+    "season": [
+      "winter",
+      "summer"
+    ],
+    "travel_type": [
+      "family",
+      "friends",
+      "solo"
+    ],
+    "accessibility": "Difficult",
+    "popular_attraction": "Lakshman Jhula",
+    "nearest_airport": "Dehradun Airport",
+    "nearest_railway": "Rishikesh"
+  },
+  {
+    "name": "Shimla",
+    "state": "Himachal Pradesh",
+    "region": "North",
+    "interests": [
+      "nature"
+    ],
+    "budget": "medium",
+    "season": [
+      "winter",
+      "summer"
+    ],
+    "travel_type": [
+      "family",
+      "friends",
+      "solo"
+    ],
+    "accessibility": "Easy",
+    "popular_attraction": "Mall Road",
+    "nearest_airport": "Shimla Airport",
+    "nearest_railway": "Shimla"
+  },
+  {
+    "name": "Udaipur",
+    "state": "Rajasthan",
+    "region": "West",
+    "interests": [
+      "heritage"
+    ],
+    "budget": "medium",
+    "season": [
+      "winter",
+      "summer"
+    ],
+    "travel_type": [
+      "family",
+      "friends",
+      "solo"
+    ],
+    "accessibility": "Easy",
+    "popular_attraction": "City Palace",
+    "nearest_airport": "Udaipur Airport",
+    "nearest_railway": "Udaipur City"
+  },
+  {
+    "name": "Darjeeling",
+    "state": "West Bengal",
+    "region": "East",
+    "interests": [
+      "nature"
+    ],
+    "budget": "medium",
+    "season": [
+      "winter",
+      "summer"
+    ],
+    "travel_type": [
+      "family",
+      "friends",
+      "solo"
+    ],
+    "accessibility": "Moderate",
+    "popular_attraction": "Tiger Hill",
+    "nearest_airport": "Bagdogra Airport",
+    "nearest_railway": "Darjeeling"
+  },
+  {
+    "name": "Munnar",
+    "state": "Kerala",
+    "region": "South",
+    "interests": [
+      "nature"
+    ],
+    "budget": "medium",
+    "season": [
+      "winter",
+      "summer"
+    ],
+    "travel_type": [
+      "family",
+      "friends",
+      "solo"
+    ],
+    "accessibility": "Moderate",
+    "popular_attraction": "Tea Gardens",
+    "nearest_airport": "Cochin International",
+    "nearest_railway": "Ernakulam"
+  },
+  {
+    "name": "Ajanta and Ellora Caves",
+    "state": "Maharashtra",
+    "region": "West",
+    "interests": [
+      "heritage"
+    ],
+    "budget": "medium",
+    "season": [
+      "winter",
+      "summer"
+    ],
+    "travel_type": [
+      "family",
+      "friends",
+      "solo"
+    ],
+    "accessibility": "Moderate",
+    "popular_attraction": "Ajanta Caves",
+    "nearest_airport": "Aurangabad Airport",
+    "nearest_railway": "Aurangabad"
+  },
+  {
+    "name": "Cherrapunji",
+    "state": "Meghalaya",
+    "region": "East",
+    "interests": [
+      "nature"
+    ],
+    "budget": "medium",
+    "season": [
+      "winter",
+      "summer"
+    ],
+    "travel_type": [
+      "family",
+      "friends",
+      "solo"
+    ],
+    "accessibility": "Difficult",
+    "popular_attraction": "Nohkalikai Falls",
+    "nearest_airport": "Shillong Airport",
+    "nearest_railway": "Guwahati"
+  },
+  {
+    "name": "Kaziranga National Park",
+    "state": "Assam",
+    "region": "East",
+    "interests": [
+      "nature"
+    ],
+    "budget": "medium",
+    "season": [
+      "winter",
+      "summer"
+    ],
+    "travel_type": [
+      "family",
+      "friends",
+      "solo"
+    ],
+    "accessibility": "Moderate",
+    "popular_attraction": "Kaziranga National Park",
+    "nearest_airport": "Jorhat Airport",
+    "nearest_railway": "Furkating"
+  },
+  {
+    "name": "Mysore",
+    "state": "Karnataka",
+    "region": "South",
+    "interests": [
+      "heritage"
+    ],
+    "budget": "medium",
+    "season": [
+      "winter",
+      "summer"
+    ],
+    "travel_type": [
+      "family",
+      "friends",
+      "solo"
+    ],
+    "accessibility": "Easy",
+    "popular_attraction": "Mysore Palace",
+    "nearest_airport": "Mysore Airport",
+    "nearest_railway": "Mysore"
+  },
+  {
+    "name": "Jaisalmer",
+    "state": "Rajasthan",
+    "region": "West",
+    "interests": [
+      "heritage"
+    ],
+    "budget": "medium",
+    "season": [
+      "winter",
+      "summer"
+    ],
+    "travel_type": [
+      "family",
+      "friends",
+      "solo"
+    ],
+    "accessibility": "Moderate",
+    "popular_attraction": "Jaisalmer Fort",
+    "nearest_airport": "Jaisalmer Airport",
+    "nearest_railway": "Jaisalmer"
+  },
+  {
+    "name": "Rishikesh",
+    "state": "Uttarakhand",
+    "region": "North",
+    "interests": [
+      "adventure"
+    ],
+    "budget": "medium",
+    "season": [
+      "winter",
+      "summer"
+    ],
+    "travel_type": [
+      "family",
+      "friends",
+      "solo"
+    ],
+    "accessibility": "Difficult",
+    "popular_attraction": "Lakshman Jhula",
+    "nearest_airport": "Dehradun Airport",
+    "nearest_railway": "Rishikesh"
+  },
+  {
+    "name": "Shimla",
+    "state": "Himachal Pradesh",
+    "region": "North",
+    "interests": [
+      "nature"
+    ],
+    "budget": "medium",
+    "season": [
+      "winter",
+      "summer"
+    ],
+    "travel_type": [
+      "family",
+      "friends",
+      "solo"
+    ],
+    "accessibility": "Easy",
+    "popular_attraction": "Mall Road",
+    "nearest_airport": "Shimla Airport",
+    "nearest_railway": "Shimla"
+  },
+  {
+    "name": "Udaipur",
+    "state": "Rajasthan",
+    "region": "West",
+    "interests": [
+      "heritage"
+    ],
+    "budget": "medium",
+    "season": [
+      "winter",
+      "summer"
+    ],
+    "travel_type": [
+      "family",
+      "friends",
+      "solo"
+    ],
+    "accessibility": "Easy",
+    "popular_attraction": "City Palace",
+    "nearest_airport": "Udaipur Airport",
+    "nearest_railway": "Udaipur City"
+  },
+  {
+    "name": "Darjeeling",
+    "state": "West Bengal",
+    "region": "East",
+    "interests": [
+      "nature"
+    ],
+    "budget": "medium",
+    "season": [
+      "winter",
+      "summer"
+    ],
+    "travel_type": [
+      "family",
+      "friends",
+      "solo"
+    ],
+    "accessibility": "Moderate",
+    "popular_attraction": "Tiger Hill",
+    "nearest_airport": "Bagdogra Airport",
+    "nearest_railway": "Darjeeling"
+  },
+  {
+    "name": "Munnar",
+    "state": "Kerala",
+    "region": "South",
+    "interests": [
+      "nature"
+    ],
+    "budget": "medium",
+    "season": [
+      "winter",
+      "summer"
+    ],
+    "travel_type": [
+      "family",
+      "friends",
+      "solo"
+    ],
+    "accessibility": "Moderate",
+    "popular_attraction": "Tea Gardens",
+    "nearest_airport": "Cochin International",
+    "nearest_railway": "Ernakulam"
+  },
+  {
+    "name": "Ajanta and Ellora Caves",
+    "state": "Maharashtra",
+    "region": "West",
+    "interests": [
+      "heritage"
+    ],
+    "budget": "medium",
+    "season": [
+      "winter",
+      "summer"
+    ],
+    "travel_type": [
+      "family",
+      "friends",
+      "solo"
+    ],
+    "accessibility": "Moderate",
+    "popular_attraction": "Ajanta Caves",
+    "nearest_airport": "Aurangabad Airport",
+    "nearest_railway": "Aurangabad"
+  },
+  {
+    "name": "Cherrapunji",
+    "state": "Meghalaya",
+    "region": "East",
+    "interests": [
+      "nature"
+    ],
+    "budget": "medium",
+    "season": [
+      "winter",
+      "summer"
+    ],
+    "travel_type": [
+      "family",
+      "friends",
+      "solo"
+    ],
+    "accessibility": "Difficult",
+    "popular_attraction": "Nohkalikai Falls",
+    "nearest_airport": "Shillong Airport",
+    "nearest_railway": "Guwahati"
+  },
+  {
+    "name": "Kaziranga National Park",
+    "state": "Assam",
+    "region": "East",
+    "interests": [
+      "nature"
+    ],
+    "budget": "medium",
+    "season": [
+      "winter",
+      "summer"
+    ],
+    "travel_type": [
+      "family",
+      "friends",
+      "solo"
+    ],
+    "accessibility": "Moderate",
+    "popular_attraction": "Kaziranga National Park",
+    "nearest_airport": "Jorhat Airport",
+    "nearest_railway": "Furkating"
+  },
+  {
+    "name": "Mysore",
+    "state": "Karnataka",
+    "region": "South",
+    "interests": [
+      "heritage"
+    ],
+    "budget": "medium",
+    "season": [
+      "winter",
+      "summer"
+    ],
+    "travel_type": [
+      "family",
+      "friends",
+      "solo"
+    ],
+    "accessibility": "Easy",
+    "popular_attraction": "Mysore Palace",
+    "nearest_airport": "Mysore Airport",
+    "nearest_railway": "Mysore"
+  },
+  {
+    "name": "Jaisalmer",
+    "state": "Rajasthan",
+    "region": "West",
+    "interests": [
+      "heritage"
+    ],
+    "budget": "medium",
+    "season": [
+      "winter",
+      "summer"
+    ],
+    "travel_type": [
+      "family",
+      "friends",
+      "solo"
+    ],
+    "accessibility": "Moderate",
+    "popular_attraction": "Jaisalmer Fort",
+    "nearest_airport": "Jaisalmer Airport",
+    "nearest_railway": "Jaisalmer"
+  },
+  {
+    "name": "Rishikesh",
+    "state": "Uttarakhand",
+    "region": "North",
+    "interests": [
+      "adventure"
+    ],
+    "budget": "medium",
+    "season": [
+      "winter",
+      "summer"
+    ],
+    "travel_type": [
+      "family",
+      "friends",
+      "solo"
+    ],
+    "accessibility": "Difficult",
+    "popular_attraction": "Lakshman Jhula",
+    "nearest_airport": "Dehradun Airport",
+    "nearest_railway": "Rishikesh"
+  },
+  {
+    "name": "Shimla",
+    "state": "Himachal Pradesh",
+    "region": "North",
+    "interests": [
+      "nature"
+    ],
+    "budget": "medium",
+    "season": [
+      "winter",
+      "summer"
+    ],
+    "travel_type": [
+      "family",
+      "friends",
+      "solo"
+    ],
+    "accessibility": "Easy",
+    "popular_attraction": "Mall Road",
+    "nearest_airport": "Shimla Airport",
+    "nearest_railway": "Shimla"
+  },
+  {
+    "name": "Udaipur",
+    "state": "Rajasthan",
+    "region": "West",
+    "interests": [
+      "heritage"
+    ],
+    "budget": "medium",
+    "season": [
+      "winter",
+      "summer"
+    ],
+    "travel_type": [
+      "family",
+      "friends",
+      "solo"
+    ],
+    "accessibility": "Easy",
+    "popular_attraction": "City Palace",
+    "nearest_airport": "Udaipur Airport",
+    "nearest_railway": "Udaipur City"
+  },
+  {
+    "name": "Darjeeling",
+    "state": "West Bengal",
+    "region": "East",
+    "interests": [
+      "nature"
+    ],
+    "budget": "medium",
+    "season": [
+      "winter",
+      "summer"
+    ],
+    "travel_type": [
+      "family",
+      "friends",
+      "solo"
+    ],
+    "accessibility": "Moderate",
+    "popular_attraction": "Tiger Hill",
+    "nearest_airport": "Bagdogra Airport",
+    "nearest_railway": "Darjeeling"
+  },
+  {
+    "name": "Munnar",
+    "state": "Kerala",
+    "region": "South",
+    "interests": [
+      "nature"
+    ],
+    "budget": "medium",
+    "season": [
+      "winter",
+      "summer"
+    ],
+    "travel_type": [
+      "family",
+      "friends",
+      "solo"
+    ],
+    "accessibility": "Moderate",
+    "popular_attraction": "Tea Gardens",
+    "nearest_airport": "Cochin International",
+    "nearest_railway": "Ernakulam"
+  },
+  {
+    "name": "Ajanta and Ellora Caves",
+    "state": "Maharashtra",
+    "region": "West",
+    "interests": [
+      "heritage"
+    ],
+    "budget": "medium",
+    "season": [
+      "winter",
+      "summer"
+    ],
+    "travel_type": [
+      "family",
+      "friends",
+      "solo"
+    ],
+    "accessibility": "Moderate",
+    "popular_attraction": "Ajanta Caves",
+    "nearest_airport": "Aurangabad Airport",
+    "nearest_railway": "Aurangabad"
+  },
+  {
+    "name": "Cherrapunji",
+    "state": "Meghalaya",
+    "region": "East",
+    "interests": [
+      "nature"
+    ],
+    "budget": "medium",
+    "season": [
+      "winter",
+      "summer"
+    ],
+    "travel_type": [
+      "family",
+      "friends",
+      "solo"
+    ],
+    "accessibility": "Difficult",
+    "popular_attraction": "Nohkalikai Falls",
+    "nearest_airport": "Shillong Airport",
+    "nearest_railway": "Guwahati"
+  },
+  {
+    "name": "Kaziranga National Park",
+    "state": "Assam",
+    "region": "East",
+    "interests": [
+      "nature"
+    ],
+    "budget": "medium",
+    "season": [
+      "winter",
+      "summer"
+    ],
+    "travel_type": [
+      "family",
+      "friends",
+      "solo"
+    ],
+    "accessibility": "Moderate",
+    "popular_attraction": "Kaziranga National Park",
+    "nearest_airport": "Jorhat Airport",
+    "nearest_railway": "Furkating"
+  },
+  {
+    "name": "Mysore",
+    "state": "Karnataka",
+    "region": "South",
+    "interests": [
+      "heritage"
+    ],
+    "budget": "medium",
+    "season": [
+      "winter",
+      "summer"
+    ],
+    "travel_type": [
+      "family",
+      "friends",
+      "solo"
+    ],
+    "accessibility": "Easy",
+    "popular_attraction": "Mysore Palace",
+    "nearest_airport": "Mysore Airport",
+    "nearest_railway": "Mysore"
+  },
+  {
+    "name": "Jaisalmer",
+    "state": "Rajasthan",
+    "region": "West",
+    "interests": [
+      "heritage"
+    ],
+    "budget": "medium",
+    "season": [
+      "winter",
+      "summer"
+    ],
+    "travel_type": [
+      "family",
+      "friends",
+      "solo"
+    ],
+    "accessibility": "Moderate",
+    "popular_attraction": "Jaisalmer Fort",
+    "nearest_airport": "Jaisalmer Airport",
+    "nearest_railway": "Jaisalmer"
+  },
+  {
+    "name": "Rishikesh",
+    "state": "Uttarakhand",
+    "region": "North",
+    "interests": [
+      "adventure"
+    ],
+    "budget": "medium",
+    "season": [
+      "winter",
+      "summer"
+    ],
+    "travel_type": [
+      "family",
+      "friends",
+      "solo"
+    ],
+    "accessibility": "Difficult",
+    "popular_attraction": "Lakshman Jhula",
+    "nearest_airport": "Dehradun Airport",
+    "nearest_railway": "Rishikesh"
+  },
+  {
+    "name": "Shimla",
+    "state": "Himachal Pradesh",
+    "region": "North",
+    "interests": [
+      "nature"
+    ],
+    "budget": "medium",
+    "season": [
+      "winter",
+      "summer"
+    ],
+    "travel_type": [
+      "family",
+      "friends",
+      "solo"
+    ],
+    "accessibility": "Easy",
+    "popular_attraction": "Mall Road",
+    "nearest_airport": "Shimla Airport",
+    "nearest_railway": "Shimla"
+  },
+  {
+    "name": "Udaipur",
+    "state": "Rajasthan",
+    "region": "West",
+    "interests": [
+      "heritage"
+    ],
+    "budget": "medium",
+    "season": [
+      "winter",
+      "summer"
+    ],
+    "travel_type": [
+      "family",
+      "friends",
+      "solo"
+    ],
+    "accessibility": "Easy",
+    "popular_attraction": "City Palace",
+    "nearest_airport": "Udaipur Airport",
+    "nearest_railway": "Udaipur City"
+  },
+  {
+    "name": "Darjeeling",
+    "state": "West Bengal",
+    "region": "East",
+    "interests": [
+      "nature"
+    ],
+    "budget": "medium",
+    "season": [
+      "winter",
+      "summer"
+    ],
+    "travel_type": [
+      "family",
+      "friends",
+      "solo"
+    ],
+    "accessibility": "Moderate",
+    "popular_attraction": "Tiger Hill",
+    "nearest_airport": "Bagdogra Airport",
+    "nearest_railway": "Darjeeling"
+  },
+  {
+    "name": "Munnar",
+    "state": "Kerala",
+    "region": "South",
+    "interests": [
+      "nature"
+    ],
+    "budget": "medium",
+    "season": [
+      "winter",
+      "summer"
+    ],
+    "travel_type": [
+      "family",
+      "friends",
+      "solo"
+    ],
+    "accessibility": "Moderate",
+    "popular_attraction": "Tea Gardens",
+    "nearest_airport": "Cochin International",
+    "nearest_railway": "Ernakulam"
+  },
+  {
+    "name": "Ajanta and Ellora Caves",
+    "state": "Maharashtra",
+    "region": "West",
+    "interests": [
+      "heritage"
+    ],
+    "budget": "medium",
+    "season": [
+      "winter",
+      "summer"
+    ],
+    "travel_type": [
+      "family",
+      "friends",
+      "solo"
+    ],
+    "accessibility": "Moderate",
+    "popular_attraction": "Ajanta Caves",
+    "nearest_airport": "Aurangabad Airport",
+    "nearest_railway": "Aurangabad"
+  },
+  {
+    "name": "Cherrapunji",
+    "state": "Meghalaya",
+    "region": "East",
+    "interests": [
+      "nature"
+    ],
+    "budget": "medium",
+    "season": [
+      "winter",
+      "summer"
+    ],
+    "travel_type": [
+      "family",
+      "friends",
+      "solo"
+    ],
+    "accessibility": "Difficult",
+    "popular_attraction": "Nohkalikai Falls",
+    "nearest_airport": "Shillong Airport",
+    "nearest_railway": "Guwahati"
+  },
+  {
+    "name": "Kaziranga National Park",
+    "state": "Assam",
+    "region": "East",
+    "interests": [
+      "nature"
+    ],
+    "budget": "medium",
+    "season": [
+      "winter",
+      "summer"
+    ],
+    "travel_type": [
+      "family",
+      "friends",
+      "solo"
+    ],
+    "accessibility": "Moderate",
+    "popular_attraction": "Kaziranga National Park",
+    "nearest_airport": "Jorhat Airport",
+    "nearest_railway": "Furkating"
+  },
+  {
+    "name": "Mysore",
+    "state": "Karnataka",
+    "region": "South",
+    "interests": [
+      "heritage"
+    ],
+    "budget": "medium",
+    "season": [
+      "winter",
+      "summer"
+    ],
+    "travel_type": [
+      "family",
+      "friends",
+      "solo"
+    ],
+    "accessibility": "Easy",
+    "popular_attraction": "Mysore Palace",
+    "nearest_airport": "Mysore Airport",
+    "nearest_railway": "Mysore"
+  },
+  {
+    "name": "Jaisalmer",
+    "state": "Rajasthan",
+    "region": "West",
+    "interests": [
+      "heritage"
+    ],
+    "budget": "medium",
+    "season": [
+      "winter",
+      "summer"
+    ],
+    "travel_type": [
+      "family",
+      "friends",
+      "solo"
+    ],
+    "accessibility": "Moderate",
+    "popular_attraction": "Jaisalmer Fort",
+    "nearest_airport": "Jaisalmer Airport",
+    "nearest_railway": "Jaisalmer"
+  },
+  {
+    "name": "Rishikesh",
+    "state": "Uttarakhand",
+    "region": "North",
+    "interests": [
+      "adventure"
+    ],
+    "budget": "medium",
+    "season": [
+      "winter",
+      "summer"
+    ],
+    "travel_type": [
+      "family",
+      "friends",
+      "solo"
+    ],
+    "accessibility": "Difficult",
+    "popular_attraction": "Lakshman Jhula",
+    "nearest_airport": "Dehradun Airport",
+    "nearest_railway": "Rishikesh"
+  },
+  {
+    "name": "Shimla",
+    "state": "Himachal Pradesh",
+    "region": "North",
+    "interests": [
+      "nature"
+    ],
+    "budget": "medium",
+    "season": [
+      "winter",
+      "summer"
+    ],
+    "travel_type": [
+      "family",
+      "friends",
+      "solo"
+    ],
+    "accessibility": "Easy",
+    "popular_attraction": "Mall Road",
+    "nearest_airport": "Shimla Airport",
+    "nearest_railway": "Shimla"
+  },
+  {
+    "name": "Udaipur",
+    "state": "Rajasthan",
+    "region": "West",
+    "interests": [
+      "heritage"
+    ],
+    "budget": "medium",
+    "season": [
+      "winter",
+      "summer"
+    ],
+    "travel_type": [
+      "family",
+      "friends",
+      "solo"
+    ],
+    "accessibility": "Easy",
+    "popular_attraction": "City Palace",
+    "nearest_airport": "Udaipur Airport",
+    "nearest_railway": "Udaipur City"
+  },
+  {
+    "name": "Darjeeling",
+    "state": "West Bengal",
+    "region": "East",
+    "interests": [
+      "nature"
+    ],
+    "budget": "medium",
+    "season": [
+      "winter",
+      "summer"
+    ],
+    "travel_type": [
+      "family",
+      "friends",
+      "solo"
+    ],
+    "accessibility": "Moderate",
+    "popular_attraction": "Tiger Hill",
+    "nearest_airport": "Bagdogra Airport",
+    "nearest_railway": "Darjeeling"
+  },
+  {
+    "name": "Munnar",
+    "state": "Kerala",
+    "region": "South",
+    "interests": [
+      "nature"
+    ],
+    "budget": "medium",
+    "season": [
+      "winter",
+      "summer"
+    ],
+    "travel_type": [
+      "family",
+      "friends",
+      "solo"
+    ],
+    "accessibility": "Moderate",
+    "popular_attraction": "Tea Gardens",
+    "nearest_airport": "Cochin International",
+    "nearest_railway": "Ernakulam"
+  },
+  {
+    "name": "Ajanta and Ellora Caves",
+    "state": "Maharashtra",
+    "region": "West",
+    "interests": [
+      "heritage"
+    ],
+    "budget": "medium",
+    "season": [
+      "winter",
+      "summer"
+    ],
+    "travel_type": [
+      "family",
+      "friends",
+      "solo"
+    ],
+    "accessibility": "Moderate",
+    "popular_attraction": "Ajanta Caves",
+    "nearest_airport": "Aurangabad Airport",
+    "nearest_railway": "Aurangabad"
+  },
+  {
+    "name": "Cherrapunji",
+    "state": "Meghalaya",
+    "region": "East",
+    "interests": [
+      "nature"
+    ],
+    "budget": "medium",
+    "season": [
+      "winter",
+      "summer"
+    ],
+    "travel_type": [
+      "family",
+      "friends",
+      "solo"
+    ],
+    "accessibility": "Difficult",
+    "popular_attraction": "Nohkalikai Falls",
+    "nearest_airport": "Shillong Airport",
+    "nearest_railway": "Guwahati"
+  }
+]
